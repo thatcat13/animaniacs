@@ -60,7 +60,7 @@ body {
   transition-duration: 0.3s;
 }
 
-.button2:hover {
+.button2:active {
   transform: translateY(0px);
 }
 
@@ -173,4 +173,13 @@ body {
   left: -19px;
   font-size: 204px;
   color: hotpink;
+}
+
+img {
+    width: 1836px;
+}
+
+p {
+    position: absolute;
+    left: 1036px;
 }
