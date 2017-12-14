@@ -6,7 +6,7 @@
 
 body {
   background:#a5a5a5;
-
+ text-align: center;
 }
 
 .flex-container {
@@ -159,5 +159,18 @@ body {
     height:100%;
     background-color:#fff;
     z-index: 999999999999;
-
  }
+
+@font-face {
+  font-family: flash;
+  src: url(../fonts/fighting-spirit-TBS.ttf);
+}
+
+.flesh {
+  font-family: flash;
+  position: absolute;
+  top: 400px;
+  left: -19px;
+  font-size: 204px;
+  color: hotpink;
+}

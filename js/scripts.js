@@ -1,6 +1,5 @@
 $(function(){
   $("html").click(function(){
-    $(".flash").show().fadeOut(300);
-
+    $(".flash").show().fadeOut(600);
   })
 });
